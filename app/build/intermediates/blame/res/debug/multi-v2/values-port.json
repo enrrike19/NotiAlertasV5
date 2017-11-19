@@ -1,0 +1,49 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Temporal\\AndroidAvanzado\\TrabajoFinal\\Nuevo\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Enrique\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ab6bcd429e1afa639ad4cea8875740e0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temporal\\AndroidAvanzado\\TrabajoFinal\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Enrique\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ab6bcd429e1afa639ad4cea8875740e0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Enrique\\Trabajo\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JAVA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d15ec20d8eac07fc15b8e3bd51f90148\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

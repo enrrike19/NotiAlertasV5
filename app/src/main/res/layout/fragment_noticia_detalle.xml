@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="pe.empresab3.notialertas.presentacion.view.fragment.NoticiaDetalleFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titulo" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:gravity="top|start"
+            android:hint="Detalle de Noticia" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>
