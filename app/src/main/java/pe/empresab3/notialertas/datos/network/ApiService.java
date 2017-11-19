@@ -2,7 +2,7 @@ package pe.empresab3.notialertas.datos.network;
 
 import java.util.List;
 
-import pe.empresab3.notialertas.datos.entity.NoticiaEntity;
+import pe.empresab3.notialertas.datos.entity.TareaEntity;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -14,9 +14,9 @@ import retrofit2.http.POST;
 
 public interface ApiService {
 
-    @GET("data/Noticia")
-    Call<List<NoticiaEntity>> listarNoticias();
+    @GET("data/Tarea")
+    Call<List<TareaEntity>> listarTareas();
 
-    @POST("data/Noticia")
-    Call<NoticiaEntity> guardarNoticia(@Body NoticiaEntity noticiaEntity);
+    @POST("data/Tarea")
+    Call<TareaEntity> guardarTarea(@Body TareaEntity tareaEntity);
 }

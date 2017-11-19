@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import pe.empresab3.notialertas.R;
-import pe.empresab3.notialertas.presentacion.model.NoticiaModel;
-import pe.empresab3.notialertas.presentacion.view.fragment.NoticiaDetalleFragment;
-import pe.empresab3.notialertas.presentacion.view.fragment.NoticiasFragment;
+import pe.empresab3.notialertas.presentacion.model.TareaModel;
+import pe.empresab3.notialertas.presentacion.view.fragment.TareaDetalleFragment;
+import pe.empresab3.notialertas.presentacion.view.fragment.TareasFragment;
 
-public class MainActivity extends AppCompatActivity  implements NoticiasFragment.OnNoticiaClickListener {
+public class MainActivity extends AppCompatActivity  implements TareasFragment.OnTareaClickListener {
 
     private boolean isDualPane;
 
@@ -26,26 +26,26 @@ public class MainActivity extends AppCompatActivity  implements NoticiasFragment
     }
 
     @Override
-    public void onNoticiaClick(NoticiaModel noticiaModel) {
+    public void onTareaClick(TareaModel tareaModel) {
         if (!isDualPane) {
             // Si es telefono
-            Intent intent = new Intent(this, NoticiaDetalleActivity.class);
-            intent.putExtra(NoticiaDetalleActivity.EXTRA_NOTICIA, noticiaModel);
+            Intent intent = new Intent(this, TareaDetalleActivity.class);
+            intent.putExtra(TareaDetalleActivity.EXTRA_TAREA, tareaModel);
             startActivity(intent);
 
         } else {
             // Si es tablet
-            NoticiaDetalleFragment noticiaDetalleFragment =
-                    (NoticiaDetalleFragment) getSupportFragmentManager()
+            TareaDetalleFragment tareaDetalleFragment =
+                    (TareaDetalleFragment) getSupportFragmentManager()
                             .findFragmentById(R.id.frag_detalle);
-            noticiaDetalleFragment.setNoticia(noticiaModel);
+            tareaDetalleFragment.setTarea(tareaModel);
         }
 
     }
 
     @Override
-    public void onAgregarNoticiaClick() {
-        Intent intent = new Intent(this, NoticiaDetalleActivity.class);
+    public void onAgregarTareaClick() {
+        Intent intent = new Intent(this, TareaDetalleActivity.class);
         startActivity(intent);
     }
 }

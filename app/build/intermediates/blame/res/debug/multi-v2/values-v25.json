@@ -1,42 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Temporal\\AndroidAvanzado\\TrabajoFinal\\Nuevo\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "/Users/hariki/GIT/NotiAlertasV5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Enrique\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ab6bcd429e1afa639ad4cea8875740e0\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Temporal\\AndroidAvanzado\\TrabajoFinal\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Enrique\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ab6bcd429e1afa639ad4cea8875740e0\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Enrique\\Trabajo\\NotiAlertas\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\JAVA\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d15ec20d8eac07fc15b8e3bd51f90148\\res\\values-v25\\values-v25.xml",
+                    "source": "/Users/hariki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/daa639d26f905c3223fb894430a88fb6/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

@@ -8,7 +8,7 @@ import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
-import pe.empresab3.notialertas.datos.entity.NoticiaEntity;
+import pe.empresab3.notialertas.datos.entity.TareaEntity;
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
@@ -41,10 +41,10 @@ public class RestApiImpl implements RestApi {
     }
 
     @Override
-    public List<NoticiaEntity> listarNoticias() throws Exception {
+    public List<TareaEntity> listarTareas() throws Exception {
         if (hayInternet()) {
-            Call<List<NoticiaEntity>> call = apiService.listarNoticias();
-            Response<List<NoticiaEntity>> response = call.execute();
+            Call<List<TareaEntity>> call = apiService.listarTareas();
+            Response<List<TareaEntity>> response = call.execute();
             if (response.isSuccessful()) {
                 return response.body();
             } else {
@@ -56,10 +56,10 @@ public class RestApiImpl implements RestApi {
     }
 
     @Override
-    public NoticiaEntity guardarNoticia(NoticiaEntity noticiaEntity) throws Exception {
+    public TareaEntity guardarTarea(TareaEntity tareaEntity) throws Exception {
         if (hayInternet()) {
-            Call<NoticiaEntity> call = apiService.guardarNoticia(noticiaEntity);
-            Response<NoticiaEntity> response = call.execute();
+            Call<TareaEntity> call = apiService.guardarTarea(tareaEntity);
+            Response<TareaEntity> response = call.execute();
             if (response.isSuccessful()) {
                 return response.body();
             } else {
