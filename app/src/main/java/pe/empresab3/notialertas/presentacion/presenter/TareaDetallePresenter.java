@@ -52,7 +52,7 @@ public class TareaDetallePresenter extends BasePresenter<TareaDetalleView> {
             @Override
             public void onSuccess(Tarea response) {
                 view.ocultarLoading();
-                view.notificartareaGuardada();
+                view.notificarTareaGuardada();
             }
 
             @Override
