@@ -8,13 +8,13 @@
 
     <fragment
         android:id="@+id/frag_noticias"
-        android:name="pe.empresab3.notialertas.presentacion.view.fragment.NoticiasFragment"
+        android:name="pe.empresab3.notialertas.presentacion.view.fragment.TareasFragment"
         android:layout_width="300dp"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/frag_detalle"
-        android:name="pe.empresab3.notialertas.presentacion.view.fragment.NoticiaDetalleFragment"
+        android:name="pe.empresab3.notialertas.presentacion.view.fragment.TareaDetalleFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="pe.empresab3.notialertas.presentacion.view.fragment.NoticiaDetalleFragment">
+    tools:context="pe.empresab3.notialertas.presentacion.view.fragment.TareaDetalleFragment">
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
