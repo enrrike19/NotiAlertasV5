@@ -3,6 +3,8 @@ package pe.empresab3.notialertas.presentacion.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.Date;
+
 /**
  * Created by Enrique on 18/11/2017.
  */
@@ -12,6 +14,7 @@ public class TareaModel implements Parcelable {
     private String titulo;
     private String estado;
     private String detalle;
+    private Date fechEnvio;
 
 
     public String getTitulo() {
