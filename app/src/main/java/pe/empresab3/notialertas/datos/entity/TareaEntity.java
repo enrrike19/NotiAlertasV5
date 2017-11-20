@@ -2,6 +2,8 @@ package pe.empresab3.notialertas.datos.entity;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Date;
+
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
@@ -24,6 +26,11 @@ public class TareaEntity extends RealmObject {
     @SerializedName("estado")
     private String estado;
 
+    @SerializedName("fechaHoraAlerta")
+    private Date fechEnvio;
+
+    @SerializedName("StatusSend")
+    private Integer statusEnvio;
 
     public String getId() {
         return id;
@@ -57,5 +64,19 @@ public class TareaEntity extends RealmObject {
         this.estado = estado;
     }
 
+    public Date getFechEnvio() {
+        return fechEnvio;
+    }
 
+    public void setFechEnvio(Date fechEnvio) {
+        this.fechEnvio = fechEnvio;
+    }
+
+    public Integer getStatusEnvio() {
+        return statusEnvio;
+    }
+
+    public void setStatusEnvio(Integer statusEnvio) {
+        this.statusEnvio = statusEnvio;
+    }
 }
