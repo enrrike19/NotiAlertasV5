@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NotiAlertas.iml" filepath="$PROJECT_DIR$/NotiAlertas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotiAlertasV5.iml" filepath="$PROJECT_DIR$/NotiAlertasV5.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

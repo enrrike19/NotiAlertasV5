@@ -15,10 +15,11 @@ import android.widget.ProgressBar;
 import pe.empresab3.notialertas.R;
 import pe.empresab3.notialertas.presentacion.model.TareaModel;
 import pe.empresab3.notialertas.presentacion.presenter.TareaDetallePresenter;
+import pe.empresab3.notialertas.presentacion.utils.Utils;
 import pe.empresab3.notialertas.presentacion.view.TareaDetalleView;
 
 
-public class TareaDetalleFragment  extends Fragment
+public class TareaDetalleFragment extends Fragment
         implements TareaDetalleView, View.OnClickListener {
 
     private static final String ARG_TAREA = "fragment.TareaDetalleFragment.ARG_TAREA";
@@ -26,6 +27,7 @@ public class TareaDetalleFragment  extends Fragment
     private EditText edtTitulo;
     private EditText edtUrl;
     private EditText edtDetalle;
+    private EditText edtFecha;
     private ProgressBar progressBar;
 
     private TareaModel tareaModel;
@@ -67,6 +69,7 @@ public class TareaDetalleFragment  extends Fragment
         edtTitulo = view.findViewById(R.id.edt_titulo);
         edtDetalle = view.findViewById(R.id.edt_detalle);
         //edtUrl = view.findViewById(R.id.edt_url);
+        edtFecha = view.findViewById(R.id.edt_fecha);
         progressBar = view.findViewById(R.id.progress);
 
         Button btnGuardar = view.findViewById(R.id.btn_guardar);
@@ -75,6 +78,13 @@ public class TareaDetalleFragment  extends Fragment
         initUI();
 
         tareaDetallePresenter = new TareaDetallePresenter(this);
+
+        edtFecha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mostrarCalendario();
+            }
+        });
     }
 
     private void initUI() {
@@ -123,5 +133,13 @@ public class TareaDetalleFragment  extends Fragment
         tareaModel.setTitulo(edtTitulo.getText().toString());
         tareaModel.setDetalle(edtDetalle.getText().toString());
         guardarTarea(tareaModel);
+    }
+
+    private void mostrarCalendario() {
+        Utils utils = new Utils();
+
+        utils.showTimePickerDialog(getContext(), edtFecha);
+
+        utils.showDateDialog(getContext(), edtFecha, false, 0);
     }
 }

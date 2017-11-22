@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.facebook.stetho:stetho-1.5.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/c8969c38fe385a48fbd738018b86218e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/c8969c38fe385a48fbd738018b86218e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/5cb262272e6b757dd3255f3f5723a12f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/5cb262272e6b757dd3255f3f5723a12f/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
