@@ -12,11 +12,11 @@ import pe.empresab3.notialertas.dominio.model.Tarea;
 
 public class TareaEntityDataMapper {
 
-    public Tarea transformar(TareaEntity noticiaEntity) {
+    public Tarea transformar(TareaEntity tareaEntity) {
         Tarea tarea = new Tarea();
-        tarea.setTitulo(noticiaEntity.getTitulo());
-        tarea.setDetalle(noticiaEntity.getDetalle());
-        tarea.setEstado(noticiaEntity.getEstado());
+        tarea.setTitulo(tareaEntity.getTitulo());
+        tarea.setDetalle(tareaEntity.getDetalle());
+        tarea.setEstado(tareaEntity.getEstado());
         return tarea;
     }
 
