@@ -14,7 +14,7 @@
             android:id="@+id/edt_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Titulo" />
+            android:hint="Tarea" />
     </android.support.design.widget.TextInputLayout>
 
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:minLines="5"
             android:gravity="top|start"
-            android:hint="Detalle de Noticia" />
+            android:hint="Detalle de la Tarea" />
 
     </android.support.design.widget.TextInputLayout>
 
