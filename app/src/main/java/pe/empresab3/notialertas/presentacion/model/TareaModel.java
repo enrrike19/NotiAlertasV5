@@ -14,7 +14,7 @@ public class TareaModel implements Parcelable {
     private String titulo;
     private String estado;
     private String detalle;
-    private Date fechEnvio;
+    private String fechEnvio;
 
 
     public String getTitulo() {
