@@ -7,6 +7,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 
 /**
  * Created by Enrique on 17/11/2017.
@@ -19,4 +20,8 @@ public interface ApiService {
 
     @POST("data/Tarea")
     Call<TareaEntity> guardarTarea(@Body TareaEntity tareaEntity);
+
+    @PUT("data/Tarea")
+    Call<TareaEntity> modificarTarea(@Body TareaEntity tareaEntity);
+
 }

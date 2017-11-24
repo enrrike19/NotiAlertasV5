@@ -19,16 +19,15 @@ import pe.empresab3.notialertas.presentacion.utils.Utils;
 import pe.empresab3.notialertas.presentacion.view.TareaDetalleView;
 
 
-public class TareaDetalleFragment extends Fragment
+public class TareaDetalleFragment  extends Fragment
         implements TareaDetalleView, View.OnClickListener {
 
     private static final String ARG_TAREA = "fragment.TareaDetalleFragment.ARG_TAREA";
 
     private EditText edtTitulo;
-    private EditText edtUrl;
     private EditText edtDetalle;
-    private EditText edtFecha;
     private ProgressBar progressBar;
+    private EditText edtFecha;
 
     private TareaModel tareaModel;
 
@@ -68,16 +67,8 @@ public class TareaDetalleFragment extends Fragment
 
         edtTitulo = view.findViewById(R.id.edt_titulo);
         edtDetalle = view.findViewById(R.id.edt_detalle);
-        //edtUrl = view.findViewById(R.id.edt_url);
-        edtFecha = view.findViewById(R.id.edt_fecha);
         progressBar = view.findViewById(R.id.progress);
-
-        Button btnGuardar = view.findViewById(R.id.btn_guardar);
-        btnGuardar.setOnClickListener(this);
-
-        initUI();
-
-        tareaDetallePresenter = new TareaDetallePresenter(this);
+        edtFecha = view.findViewById(R.id.edt_fecha);
 
         edtFecha.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,13 +76,20 @@ public class TareaDetalleFragment extends Fragment
                 mostrarCalendario();
             }
         });
+
+        Button btnGuardar = view.findViewById(R.id.btn_guardar);
+        btnGuardar.setOnClickListener(this);
+
+        initUI();
+
+        tareaDetallePresenter = new TareaDetallePresenter(this);
     }
 
     private void initUI() {
         if (tareaModel != null) {
             edtTitulo.setText(tareaModel.getTitulo());
-            //edtUrl.setText(noticiaModel.getUrl());
             edtDetalle.setText(tareaModel.getDetalle());
+            edtFecha.setText(tareaModel.getFechEnvio());
         }
     }
 
@@ -122,7 +120,9 @@ public class TareaDetalleFragment extends Fragment
 
     @Override
     public void notificarTareaGuardada() {
+
         getActivity().finish();
+
     }
 
     @Override
@@ -132,6 +132,7 @@ public class TareaDetalleFragment extends Fragment
         }
         tareaModel.setTitulo(edtTitulo.getText().toString());
         tareaModel.setDetalle(edtDetalle.getText().toString());
+        tareaModel.setFechEnvio(edtFecha.getText().toString());
         guardarTarea(tareaModel);
     }
 

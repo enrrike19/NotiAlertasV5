@@ -8,11 +8,20 @@ import java.util.Date;
 
 public class Tarea {
 
+    private String id;
     private String titulo;
     private String detalle;
     private String estado;
     private String fechEnvio;
     private Integer statusEnvio;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getTitulo() {
         return titulo;

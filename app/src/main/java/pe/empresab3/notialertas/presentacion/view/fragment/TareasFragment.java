@@ -135,8 +135,9 @@ public class TareasFragment extends Fragment
     }
 
     @Override
-    public void verDetalle(TareaModel noticiaModel) {
-        onTareaClickListener.onTareaClick(noticiaModel);
+    public void verDetalle(TareaModel tareaModel) {
+
+        onTareaClickListener.onTareaClick(tareaModel);
     }
 
     @Override

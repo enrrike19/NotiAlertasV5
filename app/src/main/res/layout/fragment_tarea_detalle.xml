@@ -14,7 +14,7 @@
             android:id="@+id/edt_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tarea" />
+            android:hint="Titulo" />
     </android.support.design.widget.TextInputLayout>
 
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:minLines="5"
             android:gravity="top|start"
-            android:hint="Detalle de la Tarea" />
+            android:hint="Detalle de la tarea" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -43,6 +43,7 @@
             android:hint="Fecha programada" />
 
     </android.support.design.widget.TextInputLayout>
+
 
     <Button
         android:id="@+id/btn_guardar"

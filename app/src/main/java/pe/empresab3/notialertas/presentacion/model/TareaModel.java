@@ -36,6 +36,13 @@ public class TareaModel implements Parcelable {
         this.estado = estado;
     }
 
+    public String getFechEnvio() {
+        return fechEnvio;
+    }
+
+    public void setFechEnvio(String fechEnvio) {
+        this.fechEnvio = fechEnvio;
+    }
 
     @Override
     public String toString() {
@@ -52,6 +59,7 @@ public class TareaModel implements Parcelable {
         dest.writeString(this.titulo);
         dest.writeString(this.detalle);
         dest.writeString(this.estado);
+        dest.writeString(this.fechEnvio);
     }
 
     public TareaModel() {
@@ -59,8 +67,9 @@ public class TareaModel implements Parcelable {
 
     protected TareaModel(Parcel in) {
         this.titulo = in.readString();
-        this.estado = in.readString();
         this.detalle = in.readString();
+        this.estado = in.readString();
+        this.fechEnvio = in.readString();
     }
 
     public static final Creator<TareaModel> CREATOR = new Creator<TareaModel>() {
