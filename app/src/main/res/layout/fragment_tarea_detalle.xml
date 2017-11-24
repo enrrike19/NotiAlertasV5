@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:minLines="5"
             android:gravity="top|start"
-            android:hint="Detalle de Noticia" />
+            android:hint="Detalle de la tarea" />
 
     </android.support.design.widget.TextInputLayout>
 

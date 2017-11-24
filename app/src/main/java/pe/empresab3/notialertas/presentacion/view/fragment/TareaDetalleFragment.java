@@ -89,6 +89,7 @@ public class TareaDetalleFragment  extends Fragment
         if (tareaModel != null) {
             edtTitulo.setText(tareaModel.getTitulo());
             edtDetalle.setText(tareaModel.getDetalle());
+            edtFecha.setText(tareaModel.getFechEnvio());
         }
     }
 
@@ -131,6 +132,7 @@ public class TareaDetalleFragment  extends Fragment
         }
         tareaModel.setTitulo(edtTitulo.getText().toString());
         tareaModel.setDetalle(edtDetalle.getText().toString());
+        tareaModel.setFechEnvio(edtFecha.getText().toString());
         guardarTarea(tareaModel);
     }
 
