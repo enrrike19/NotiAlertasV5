@@ -44,6 +44,10 @@
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\daa639d26f905c3223fb894430a88fb6\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_alerta.png"
+    },
+    {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\aa3877f905c6bdd7f7f68c38983cd02a\\res\\drawable\\notification_bg_low.xml"
     },
@@ -888,6 +892,10 @@
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\daa639d26f905c3223fb894430a88fb6\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_alerta.xml.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_alerta.xml"
+    },
+    {
         "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -1172,6 +1180,10 @@
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ca07677362c4dc688ed6637854f6837\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_alerta.png"
+    },
+    {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\daa639d26f905c3223fb894430a88fb6\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -1196,12 +1208,12 @@
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\fce49b802cf2eeaa688a97157c984447\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\478fe4ff7a08a2d6a70d44b5940adfc8\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ca07677362c4dc688ed6637854f6837\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\478fe4ff7a08a2d6a70d44b5940adfc8\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1692,6 +1704,10 @@
         "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add.xml"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_alerta.png"
+    },
+    {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
@@ -2120,6 +2136,10 @@
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\daa639d26f905c3223fb894430a88fb6\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_alerta.png"
+    },
+    {
         "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ca07677362c4dc688ed6637854f6837\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -2210,6 +2230,10 @@
     {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "D:\\Users\\hariki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\daa639d26f905c3223fb894430a88fb6\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_alerta.png"
     },
     {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -3356,6 +3380,10 @@
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ca07677362c4dc688ed6637854f6837\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_alerta.png.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_alerta.png"
+    },
+    {
         "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\efe2cb55f263c63498c5ba17432f155b\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
@@ -3638,6 +3666,10 @@
     {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notificacion.xml.flat",
+        "source": "D:\\BCK_UNIDAD_D_14_09_2017\\JORGE_LUIS\\ESPECIALIZACION\\CIBERTEC\\ANDROID2\\TRABAJO_FINAL\\ALERTA\\NotiAlertasV5\\app\\src\\main\\res\\layout\\activity_notificacion.xml"
     },
     {
         "merged": "D:\\Users\\hariki\\GIT\\NotiAlertasV5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",

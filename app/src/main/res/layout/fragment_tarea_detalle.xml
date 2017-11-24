@@ -26,9 +26,9 @@
             android:id="@+id/edt_detalle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minLines="5"
             android:gravity="top|start"
-            android:hint="Detalle de la tarea" />
+            android:hint="Detalle de la tarea"
+            android:minLines="5" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -44,17 +44,28 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <Button
+        android:id="@+id/btn_validar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validar" />
+
+    <TextView
+        android:id="@+id/txt_Mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje" />
 
     <Button
         android:id="@+id/btn_guardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guardar"/>
+        android:text="Guardar" />
 
     <ProgressBar
         android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
 </LinearLayout>

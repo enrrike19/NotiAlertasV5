@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".presentacion.view.activity.TareaDetalleActivity" />
+        <activity android:name=".presentacion.view.activity.TareaDetalleActivity" />
+        <activity android:name=".presentacion.notification.NotificacionActivity"></activity>
     </application>
 
 </manifest>

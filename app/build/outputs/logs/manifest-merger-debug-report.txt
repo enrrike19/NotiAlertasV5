@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [io.realm:realm-android-library:3.1.4] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.4.aar\5cac2541038be02ff92c159c3a3c99ee\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\efe2cb55f263c63498c5ba17432f155b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ca07677362c4dc688ed6637854f6837\AndroidManifest.xml:17:1-31:12
@@ -22,20 +22,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a66c9da06b43d7b73eb22da27c0a348d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\478fe4ff7a08a2d6a70d44b5940adfc8\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3204e0ed2e96395a944fca442d5002a6\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:2:11-69
@@ -48,7 +48,7 @@ ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROI
 	android:name
 		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:8:5-24:19
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:8:5-25:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\efe2cb55f263c63498c5ba17432f155b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\efe2cb55f263c63498c5ba17432f155b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ca07677362c4dc688ed6637854f6837\AndroidManifest.xml:25:5-29:19
@@ -80,35 +80,41 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrador\.
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3204e0ed2e96395a944fca442d5002a6\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3204e0ed2e96395a944fca442d5002a6\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:9:9-55
 activity#pe.empresab3.notialertas.presentacion.view.activity.MainActivity
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:15:19-74
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:16:19-74
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:20:27-74
 activity#pe.empresab3.notialertas.presentacion.view.activity.TareaDetalleActivity
-ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:22:9-23:79
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:23:9-85
 	android:name
-		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:23:13-76
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:23:19-82
+activity#pe.empresab3.notialertas.presentacion.notification.NotificacionActivity
+ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:24:9-93
+	android:name
+		ADDED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml:24:19-81
 uses-sdk
 INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\BCK_UNIDAD_D_14_09_2017\JORGE_LUIS\ESPECIALIZACION\CIBERTEC\ANDROID2\TRABAJO_FINAL\ALERTA\NotiAlertasV5\app\src\main\AndroidManifest.xml
