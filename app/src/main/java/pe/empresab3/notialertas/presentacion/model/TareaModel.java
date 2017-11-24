@@ -14,7 +14,7 @@ public class TareaModel implements Parcelable {
     private String titulo;
     private String estado;
     private String detalle;
-    private Date fechEnvio;
+    private String fechEnvio;
 
 
     public String getTitulo() {
@@ -36,6 +36,13 @@ public class TareaModel implements Parcelable {
         this.estado = estado;
     }
 
+    public String getFechEnvio() {
+        return fechEnvio;
+    }
+
+    public void setFechEnvio(String fechEnvio) {
+        this.fechEnvio = fechEnvio;
+    }
 
     @Override
     public String toString() {

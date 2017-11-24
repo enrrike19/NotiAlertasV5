@@ -27,7 +27,7 @@ public class TareaEntity extends RealmObject {
     private String estado;
 
     @SerializedName("fechaHoraAlerta")
-    private Date fechEnvio;
+    private String fechEnvio;
 
     @SerializedName("StatusSend")
     private Integer statusEnvio;
@@ -64,11 +64,11 @@ public class TareaEntity extends RealmObject {
         this.estado = estado;
     }
 
-    public Date getFechEnvio() {
+    public String getFechEnvio() {
         return fechEnvio;
     }
 
-    public void setFechEnvio(Date fechEnvio) {
+    public void setFechEnvio(String fechEnvio) {
         this.fechEnvio = fechEnvio;
     }
 
