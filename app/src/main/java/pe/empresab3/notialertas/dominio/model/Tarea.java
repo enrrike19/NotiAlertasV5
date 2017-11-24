@@ -11,7 +11,7 @@ public class Tarea {
     private String titulo;
     private String detalle;
     private String estado;
-    private Date fechEnvio;
+    private String fechEnvio;
     private Integer statusEnvio;
 
     public String getTitulo() {
@@ -38,11 +38,11 @@ public class Tarea {
         this.estado = estado;
     }
 
-    public Date getFechEnvio() {
+    public String getFechEnvio() {
         return fechEnvio;
     }
 
-    public void setFechEnvio(Date fechEnvio) {
+    public void setFechEnvio(String fechEnvio) {
         this.fechEnvio = fechEnvio;
     }
 

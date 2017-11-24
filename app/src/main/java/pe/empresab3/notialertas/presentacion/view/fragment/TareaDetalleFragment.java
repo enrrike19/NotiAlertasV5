@@ -112,7 +112,9 @@ public class TareaDetalleFragment  extends Fragment
 
     @Override
     public void notificarTareaGuardada() {
+
         getActivity().finish();
+
     }
 
     @Override
