@@ -15,6 +15,7 @@ import android.widget.ProgressBar;
 import pe.empresab3.notialertas.R;
 import pe.empresab3.notialertas.presentacion.model.TareaModel;
 import pe.empresab3.notialertas.presentacion.presenter.TareaDetallePresenter;
+import pe.empresab3.notialertas.presentacion.utils.Utils;
 import pe.empresab3.notialertas.presentacion.view.TareaDetalleView;
 
 
@@ -24,9 +25,9 @@ public class TareaDetalleFragment  extends Fragment
     private static final String ARG_TAREA = "fragment.TareaDetalleFragment.ARG_TAREA";
 
     private EditText edtTitulo;
-    private EditText edtUrl;
     private EditText edtDetalle;
     private ProgressBar progressBar;
+    private EditText edtFecha;
 
     private TareaModel tareaModel;
 
@@ -66,8 +67,15 @@ public class TareaDetalleFragment  extends Fragment
 
         edtTitulo = view.findViewById(R.id.edt_titulo);
         edtDetalle = view.findViewById(R.id.edt_detalle);
-        //edtUrl = view.findViewById(R.id.edt_url);
         progressBar = view.findViewById(R.id.progress);
+        edtFecha = view.findViewById(R.id.edt_fecha);
+
+        edtFecha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mostrarCalendario();
+            }
+        });
 
         Button btnGuardar = view.findViewById(R.id.btn_guardar);
         btnGuardar.setOnClickListener(this);
@@ -80,7 +88,6 @@ public class TareaDetalleFragment  extends Fragment
     private void initUI() {
         if (tareaModel != null) {
             edtTitulo.setText(tareaModel.getTitulo());
-            //edtUrl.setText(noticiaModel.getUrl());
             edtDetalle.setText(tareaModel.getDetalle());
         }
     }
@@ -125,5 +132,13 @@ public class TareaDetalleFragment  extends Fragment
         tareaModel.setTitulo(edtTitulo.getText().toString());
         tareaModel.setDetalle(edtDetalle.getText().toString());
         guardarTarea(tareaModel);
+    }
+
+    private void mostrarCalendario() {
+        Utils utils = new Utils();
+
+        utils.showTimePickerDialog(getContext(), edtFecha);
+
+        utils.showDateDialog(getContext(), edtFecha, false, 0);
     }
 }
