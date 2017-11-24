@@ -14,5 +14,5 @@ public interface RestApi {
 
     TareaEntity guardarTarea(TareaEntity tareaEntity) throws Exception;
 
-    TareaEntity actualizarTarea(TareaEntity tareaEntity) throws Exception;
+    TareaEntity modificarTarea(TareaEntity tareaEntity) throws Exception;
 }

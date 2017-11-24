@@ -22,5 +22,6 @@ public interface ApiService {
     Call<TareaEntity> guardarTarea(@Body TareaEntity tareaEntity);
 
     @PUT("data/Tarea")
-    Call<TareaEntity> actualizarTarea(@Body TareaEntity tareaEntity);
+    Call<TareaEntity> modificarTarea(@Body TareaEntity tareaEntity);
+
 }

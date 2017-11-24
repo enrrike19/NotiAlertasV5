@@ -71,9 +71,9 @@ public class RestApiImpl implements RestApi {
     }
 
     @Override
-    public TareaEntity actualizarTarea(TareaEntity tareaEntity) throws Exception {
+    public TareaEntity modificarTarea(TareaEntity tareaEntity) throws Exception {
         if (hayInternet()) {
-            Call<TareaEntity> call = apiService.guardarTarea(tareaEntity);
+            Call<TareaEntity> call = apiService.modificarTarea(tareaEntity);
             Response<TareaEntity> response = call.execute();
             if (response.isSuccessful()) {
                 return response.body();

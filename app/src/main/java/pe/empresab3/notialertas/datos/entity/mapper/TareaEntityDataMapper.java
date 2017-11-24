@@ -14,6 +14,7 @@ public class TareaEntityDataMapper {
 
     public Tarea transformar(TareaEntity tareaEntity) {
         Tarea tarea = new Tarea();
+        tarea.setId(tareaEntity.getId());
         tarea.setTitulo(tareaEntity.getTitulo());
         tarea.setDetalle(tareaEntity.getDetalle());
         tarea.setEstado(tareaEntity.getEstado());
@@ -23,6 +24,7 @@ public class TareaEntityDataMapper {
 
     public TareaEntity transformar(Tarea tareaEntity) {
         TareaEntity tarea = new TareaEntity();
+        tarea.setId(tareaEntity.getId());
         tarea.setTitulo(tareaEntity.getTitulo());
         tarea.setDetalle(tareaEntity.getDetalle());
         tarea.setEstado(tareaEntity.getEstado());
