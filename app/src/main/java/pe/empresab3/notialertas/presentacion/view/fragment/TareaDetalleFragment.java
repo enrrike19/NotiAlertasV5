@@ -234,8 +234,8 @@ public class TareaDetalleFragment extends Fragment
                 .setDefaults(Notification.DEFAULT_ALL)
                 .setPriority(Notification.PRIORITY_HIGH)
                 .setColor(Color.parseColor("#71b32a"))
-                .setContentTitle("Tarea")
-                .setContentText("Notificacion básica")
+                .setContentTitle(tareaModel.getTitulo().toString())
+                .setContentText(tareaModel.getDetalle().toString())
                 .setSmallIcon(R.drawable.ic_alerta)
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent);
