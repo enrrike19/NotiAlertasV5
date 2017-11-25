@@ -31,6 +31,7 @@ import java.util.Locale;
 import pe.empresab3.notialertas.R;
 import pe.empresab3.notialertas.presentacion.model.TareaModel;
 import pe.empresab3.notialertas.presentacion.notification.NotificacionActivity;
+import pe.empresab3.notialertas.presentacion.notification.NotificacionAlerta;
 import pe.empresab3.notialertas.presentacion.presenter.TareaDetallePresenter;
 import pe.empresab3.notialertas.presentacion.utils.Utils;
 import pe.empresab3.notialertas.presentacion.view.TareaDetalleView;
@@ -51,10 +52,10 @@ public class TareaDetalleFragment extends Fragment
 
     private TareaDetallePresenter tareaDetallePresenter;
 
-    //------ TEMPORAL ------//
+    //------ Notificacion ------//
     private TextView txtMensaje;
     private Button btnValidar;
-    //------ TEMPORAL ------//
+    //------ Notificacion ------//
 
     public static TareaDetalleFragment newInstance(TareaModel tareaModel) {
         TareaDetalleFragment f = new TareaDetalleFragment();
@@ -93,11 +94,11 @@ public class TareaDetalleFragment extends Fragment
         progressBar = view.findViewById(R.id.progress);
         edtFecha = view.findViewById(R.id.edt_fecha);
 
-        //------ TEMPORAL ------//
+        //------ Notificacion ------//
         btnValidar = view.findViewById(R.id.btn_validar);
         txtMensaje = view.findViewById(R.id.txt_Mensaje);
         btnValidar.setOnClickListener(this);
-        //------ TEMPORAL ------//
+        //------ Notificacion ------//
 
         edtFecha.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -184,64 +185,12 @@ public class TareaDetalleFragment extends Fragment
         utils.showDateDialog(getContext(), edtFecha, false, 0);
     }
 
-    //------ TEMPORAL ------//
-    private void validarFecha () {
-        Calendar myCalendar;
+    //------ Notificacion ------//
+    private void validarFecha() {
 
-        String formatoFecha = "dd/MM/yyyy";
-        SimpleDateFormat sdfFecha;
-        String formatoHora = "hh:mm a";
-        SimpleDateFormat sdfHora;
+        NotificacionAlerta notificacionAlerta = new NotificacionAlerta();
 
-        String fechaActual;
-        String horaActual;
-
-        String fechaProgramada;
-        String horaProgramada;
-
-        myCalendar = Calendar.getInstance();
-        sdfFecha = new SimpleDateFormat(formatoFecha, Locale.US);
-        sdfHora = new SimpleDateFormat(formatoHora, Locale.US);
-
-        fechaActual = sdfFecha.format(myCalendar.getTime()).toString();
-        horaActual = sdfHora.format(myCalendar.getTime()).toString();
-
-        fechaProgramada = edtFecha.getText().toString().substring(0,10);
-        horaProgramada = edtFecha.getText().toString().substring(11);
-
-        if (fechaProgramada.equals(fechaActual) && horaProgramada.equals(horaActual)) {
-            NotificationManagerCompat notificationManager = NotificationManagerCompat.from(getActivity());
-            notificationManager.notify(1, TareaProgramada());
-            txtMensaje.setText("Inicio de Tarea");
-        } else {
-            txtMensaje.setText("Tarea no programada");
-        }
-
+        notificacionAlerta.validarFecha(edtFecha.getText().toString(), edtFecha.getText().toString(), tareaModel.getTitulo().toString(), tareaModel.getDetalle().toString(), getContext());
     }
-
-    private Notification TareaProgramada() {
-        Intent intent = new Intent(getActivity(), NotificacionActivity.class);
-
-        TaskStackBuilder taskStackBuilder = TaskStackBuilder.create(getActivity());
-        taskStackBuilder.addParentStack(NotificacionActivity.class);
-        taskStackBuilder.addNextIntent(intent);
-
-        PendingIntent pendingIntent = taskStackBuilder.getPendingIntent(0,
-                PendingIntent.FLAG_UPDATE_CURRENT);
-
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(
-                getActivity(), "basic")
-                .setDefaults(Notification.DEFAULT_ALL)
-                .setPriority(Notification.PRIORITY_HIGH)
-                .setColor(Color.parseColor("#71b32a"))
-                .setContentTitle(tareaModel.getTitulo().toString())
-                .setContentText(tareaModel.getDetalle().toString())
-                .setSmallIcon(R.drawable.ic_alerta)
-                .setAutoCancel(true)
-                .setContentIntent(pendingIntent);
-
-        return builder.build();
-    }
-    //------ TEMPORAL ------//
-
+    //------ Notificacion ------//
 }
