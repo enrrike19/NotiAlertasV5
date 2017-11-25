@@ -19,6 +19,7 @@ public class TareaEntityDataMapper {
         tarea.setDetalle(tareaEntity.getDetalle());
         tarea.setEstado(tareaEntity.getEstado());
         tarea.setFechEnvio(tareaEntity.getFechEnvio());
+        tarea.setStatusEnvio(tareaEntity.getStatusEnvio());
         return tarea;
     }
 
@@ -29,6 +30,7 @@ public class TareaEntityDataMapper {
         tarea.setDetalle(tareaEntity.getDetalle());
         tarea.setEstado(tareaEntity.getEstado());
         tarea.setFechEnvio(tareaEntity.getFechEnvio());
+        tarea.setStatusEnvio(tareaEntity.getStatusEnvio());
         return tarea;
     }
 

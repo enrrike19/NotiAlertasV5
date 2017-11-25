@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,8 @@ public class TareasFragment extends Fragment
     private OnTareaClickListener onTareaClickListener;
 
     private int index = 0;
+
+    private static final String TAG = "TareasFragment";
 
     public TareasFragment() {
         // Required empty public constructor
@@ -95,6 +98,9 @@ public class TareasFragment extends Fragment
     public void onStart() {
         super.onStart();
         tareasPresenter.cargarNoticias();
+        //TODO, Se adicionó para saber cuantas tareas pendientes existen.
+        Log.d(TAG, "onStart: cargarTareasPendientes");
+        tareasPresenter.cargarTareasPendientes();
     }
 
     @Override

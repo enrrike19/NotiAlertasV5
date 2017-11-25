@@ -11,9 +11,11 @@ import pe.empresab3.notialertas.dominio.executor.JobExecutor;
 import pe.empresab3.notialertas.dominio.executor.UIThread;
 import pe.empresab3.notialertas.dominio.model.Tarea;
 import pe.empresab3.notialertas.dominio.negocio.ListarTareas;
+import pe.empresab3.notialertas.dominio.negocio.ListarTareasPendientes;
 import pe.empresab3.notialertas.dominio.negocio.NegocioBase;
 import pe.empresab3.notialertas.dominio.repository.TareaRepositorio;
 import pe.empresab3.notialertas.presentacion.NetworkUtils;
+import pe.empresab3.notialertas.presentacion.model.TareaModel;
 import pe.empresab3.notialertas.presentacion.model.mapper.TareaModelDataMapper;
 import pe.empresab3.notialertas.presentacion.view.TareasView;
 
@@ -27,6 +29,7 @@ public class TareasPresenter extends BasePresenter<TareasView> {
 
     private final ListarTareas listartareas;
     private final TareaModelDataMapper tareaModelDataMapper;
+    private final ListarTareasPendientes listarTareasPendientes;
 
     public TareasPresenter(TareasView view) {
         super(view);
@@ -39,6 +42,12 @@ public class TareasPresenter extends BasePresenter<TareasView> {
         );
 
         this.listartareas = new ListarTareas(
+                new JobExecutor(),
+                new UIThread(),
+                tareaRepositorio
+        );
+
+        this.listarTareasPendientes = new ListarTareasPendientes(
                 new JobExecutor(),
                 new UIThread(),
                 tareaRepositorio
@@ -62,5 +71,30 @@ public class TareasPresenter extends BasePresenter<TareasView> {
                 view.ocultarLoading();
             }
         });
+    }
+
+
+    public List<TareaModel> cargarTareasPendientes()
+    {
+        List<TareaModel> tareasModel= null;
+
+        this.listarTareasPendientes.ejecutar(new NegocioBase.Callback<List<Tarea>>() {
+            @Override
+            public void onSuccess(List<Tarea> response) {
+                //view.ocultarLoading();
+                //TODO, las tareas pendientes estan en el response.
+                Log.d(TAG, "cantidad de tareas pendientes:" + response.size());
+                //view.mostrarTareas(tareaModelDataMapper.transformar(response));
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                Log.e(TAG, "onError: ", t);
+                //view.ocultarLoading();
+            }
+        });
+
+
+        return tareasModel;
     }
 }
