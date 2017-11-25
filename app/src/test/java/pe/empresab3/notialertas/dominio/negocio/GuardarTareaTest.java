@@ -8,17 +8,19 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import pe.empresab3.notialertas.dominio.executor.PostExecutionThread;
 import pe.empresab3.notialertas.dominio.executor.ThreadExecutor;
+import pe.empresab3.notialertas.dominio.model.Tarea;
 import pe.empresab3.notialertas.dominio.repository.TareaRepositorio;
 
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 /**
- * Created by Enrique on 24/11/2017.
+ * Created by Administrador on 25/11/2017.
  */
 @RunWith(MockitoJUnitRunner.class)
-public class ListarTareasTest {
-    private ListarTareas listarTareas;
+public class GuardarTareaTest {
+
+    private GuardarTarea guardarTarea;
 
     @Mock
     private ThreadExecutor mockThreadExecutor;
@@ -31,15 +33,25 @@ public class ListarTareasTest {
 
     @Before
     public void setUp() throws Exception {
-        listarTareas = new ListarTareas(mockThreadExecutor, mockPostExecutionThread, mockTareaRepositorio);
+        guardarTarea = new GuardarTarea(mockThreadExecutor, mockPostExecutionThread, mockTareaRepositorio);
     }
 
     @Test
-    public void testListasTareasNegocio() throws Exception {
-        listarTareas.setParam(true);
-        listarTareas.construirNegocio();
+    public void tesGuardarTarea() throws Exception {
+        Tarea tarea = null;
+        tarea = new Tarea();
 
-        verify(mockTareaRepositorio).listarTareas(true);
+        tarea.setTitulo("Probar tarea 1");
+        tarea.setDetalle("Detalle sobre esta tarea");
+        tarea.setEstado("0");
+        tarea.setFechEnvio("25/11/2017 12:15 PM");
+
+        guardarTarea.setParams(tarea);
+        guardarTarea.construirNegocio();
+
+        verify(mockTareaRepositorio).crearTarea(tarea);
         verifyNoMoreInteractions(mockTareaRepositorio);
+
     }
+
 }
