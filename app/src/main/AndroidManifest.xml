@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".presentacion.view.activity.TareaDetalleActivity" />
         <activity android:name=".presentacion.notification.NotificacionActivity"></activity>
+        <receiver  android:process=":remote" android:name=".presentacion.background.CheckPostReceiver"></receiver>
     </application>
 
 </manifest>

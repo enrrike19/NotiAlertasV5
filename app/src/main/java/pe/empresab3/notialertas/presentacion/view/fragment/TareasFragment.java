@@ -109,15 +109,17 @@ public class TareasFragment extends Fragment
         Log.d(TAG, "onStart: cargarTareasPendientes");
         tareasPresenter.cargarTareasPendientes();
 
+        /*
         if(num == 0){
             AlarmManager manager = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
             Intent alarmIntent = new Intent(getContext(), CheckPostReceiver.class);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(getContext(), 0, alarmIntent, 0);
-            long interval = (long) 0.005;
+            int interval = 5;
 
             manager.setRepeating(AlarmManager.RTC, System.currentTimeMillis(), interval, pendingIntent);
             num = 1;
         }
+        */
 
 
     }

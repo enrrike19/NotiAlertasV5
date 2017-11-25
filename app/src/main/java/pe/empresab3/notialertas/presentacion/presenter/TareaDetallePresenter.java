@@ -59,6 +59,7 @@ public class TareaDetallePresenter extends BasePresenter<TareaDetalleView> {
         if (tareaModel.getId() == null || tareaModel.getId().equals(""))
         {
             Log.d(TAG, "guardarTarea: guardar Nuevo Registro");
+            tareaModel.setStatusSend(0);
             guardarTareaPresenter(tareaModel);
         }else
         {
