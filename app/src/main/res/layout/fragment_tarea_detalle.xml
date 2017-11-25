@@ -48,12 +48,15 @@
         android:id="@+id/btn_validar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Validar" />
+        android:text="Validar"
+        android:visibility="gone"
+        />
 
     <TextView
         android:id="@+id/txt_Mensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="Mensaje" />
 
     <Button

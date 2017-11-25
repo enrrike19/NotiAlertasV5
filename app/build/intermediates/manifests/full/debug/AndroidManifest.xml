@@ -31,6 +31,10 @@
         <activity android:name="pe.empresab3.notialertas.presentacion.view.activity.TareaDetalleActivity" />
         <activity android:name="pe.empresab3.notialertas.presentacion.notification.NotificacionActivity" />
 
+        <receiver
+            android:name="pe.empresab3.notialertas.presentacion.background.CheckPostReceiver"
+            android:process=":remote" />
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
