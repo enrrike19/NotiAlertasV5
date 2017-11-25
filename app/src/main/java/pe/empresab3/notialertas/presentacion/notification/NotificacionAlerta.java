@@ -56,7 +56,7 @@ public class NotificacionAlerta {
 
     }
 
-    private Notification TareaProgramada(Context context, String titulo, String detalle) {
+    public Notification TareaProgramada(Context context, String titulo, String detalle) {
         Intent intent = new Intent(context, NotificacionActivity.class);
 
         TaskStackBuilder taskStackBuilder = TaskStackBuilder.create(context);

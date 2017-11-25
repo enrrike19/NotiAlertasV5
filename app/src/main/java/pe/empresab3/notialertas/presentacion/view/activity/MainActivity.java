@@ -19,8 +19,11 @@ public class MainActivity extends AppCompatActivity  implements TareasFragment.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Fragment noticiaDetalleFragment = getSupportFragmentManager()
                 .findFragmentById(R.id.frag_detalle);
+
+
 
         isDualPane = noticiaDetalleFragment != null;
     }

@@ -1,7 +1,10 @@
 package pe.empresab3.notialertas.presentacion.view.fragment;
 
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -16,10 +19,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 import pe.empresab3.notialertas.R;
+import pe.empresab3.notialertas.presentacion.background.CheckPostReceiver;
 import pe.empresab3.notialertas.presentacion.model.TareaModel;
 import pe.empresab3.notialertas.presentacion.presenter.TareasPresenter;
 import pe.empresab3.notialertas.presentacion.view.TareasView;
@@ -42,6 +47,8 @@ public class TareasFragment extends Fragment
     private int index = 0;
 
     private static final String TAG = "TareasFragment";
+
+    private static int num = 0;
 
     public TareasFragment() {
         // Required empty public constructor
@@ -101,6 +108,18 @@ public class TareasFragment extends Fragment
         //TODO, Se adicionó para saber cuantas tareas pendientes existen.
         Log.d(TAG, "onStart: cargarTareasPendientes");
         tareasPresenter.cargarTareasPendientes();
+
+        if(num == 0){
+            AlarmManager manager = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+            Intent alarmIntent = new Intent(getContext(), CheckPostReceiver.class);
+            PendingIntent pendingIntent = PendingIntent.getBroadcast(getContext(), 0, alarmIntent, 0);
+            long interval = (long) 0.005;
+
+            manager.setRepeating(AlarmManager.RTC, System.currentTimeMillis(), interval, pendingIntent);
+            num = 1;
+        }
+
+
     }
 
     @Override
