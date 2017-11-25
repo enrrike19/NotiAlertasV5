@@ -12,6 +12,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.app.TaskStackBuilder;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,7 @@ public class TareaDetalleFragment extends Fragment
         implements TareaDetalleView, View.OnClickListener {
 
     private static final String ARG_TAREA = "fragment.TareaDetalleFragment.ARG_TAREA";
+    private static final String TAG = "TareaDetalleFragment";
 
     private EditText edtTitulo;
     private EditText edtDetalle;
@@ -117,6 +119,10 @@ public class TareaDetalleFragment extends Fragment
             edtTitulo.setText(tareaModel.getTitulo());
             edtDetalle.setText(tareaModel.getDetalle());
             edtFecha.setText(tareaModel.getFechEnvio());
+
+            Log.d(TAG, "initUI: tareaModel_detalle:" + tareaModel.getDetalle());
+            Log.d(TAG, "initUI: tareaModel_id:" + tareaModel.getId());
+
         }
     }
 

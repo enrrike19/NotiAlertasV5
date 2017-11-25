@@ -25,4 +25,9 @@ public class DiskTareaDatasource implements TareaDatasource {
     public TareaEntity crearTarea(TareaEntity tareaEntity) throws Exception {
         throw new UnsupportedOperationException("Operacion no valida");
     }
+
+    @Override
+    public TareaEntity modificarTarea(TareaEntity tareaEntity) throws Exception {
+        throw new UnsupportedOperationException("Operacion no valida");
+    }
 }

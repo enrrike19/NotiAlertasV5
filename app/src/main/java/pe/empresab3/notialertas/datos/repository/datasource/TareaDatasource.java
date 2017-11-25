@@ -13,4 +13,6 @@ public interface TareaDatasource {
     List<TareaEntity> listarTareas() throws Exception;
 
     TareaEntity crearTarea(TareaEntity tareaEntity) throws Exception;
+
+    TareaEntity modificarTarea(TareaEntity tareaEntity) throws Exception;
 }

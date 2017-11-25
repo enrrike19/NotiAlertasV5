@@ -11,4 +11,6 @@ public interface TareaDetalleView extends LoadingView {
     void guardarTarea(TareaModel tareaModel);
 
     void notificarTareaGuardada();
+
+
 }

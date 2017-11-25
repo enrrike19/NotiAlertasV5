@@ -15,7 +15,7 @@ public interface TareaRepositorio {
 
     Tarea crearTarea(Tarea tarea) throws Exception;
 
-    Tarea actualizarTarea(Tarea tarea) throws Exception;
+    Tarea modificarTarea(Tarea tarea) throws Exception;
 
 
 }

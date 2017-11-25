@@ -31,4 +31,9 @@ public class NetworkTareaDatasource implements TareaDatasource {
     public TareaEntity crearTarea(TareaEntity tareaEntity) throws Exception {
         return restApi.guardarTarea(tareaEntity);
     }
+
+    @Override
+    public TareaEntity modificarTarea(TareaEntity tareaEntity) throws Exception {
+        return restApi.modificarTarea(tareaEntity);
+    }
 }

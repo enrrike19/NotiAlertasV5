@@ -42,7 +42,11 @@ public class TareaDataRepositorio implements TareaRepositorio {
     }
 
     @Override
-    public Tarea actualizarTarea(Tarea tarea) throws Exception {
-        return null;
+    public Tarea modificarTarea(Tarea tarea) throws Exception {
+        final TareaDatasource tareaDatasource = tareaDatasourceFactory
+                .crearNetworkDatasource();
+        TareaEntity tareaEntity = tareaDatasource.modificarTarea(
+                tareaEntityDataMapper.transformar(tarea));
+        return tareaEntityDataMapper.transformar(tareaEntity);
     }
 }

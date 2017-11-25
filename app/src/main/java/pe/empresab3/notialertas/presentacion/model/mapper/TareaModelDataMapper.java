@@ -19,6 +19,7 @@ public class TareaModelDataMapper {
         tareaModel.setFechEnvio(tarea.getFechEnvio());
         tareaModel.setEstado(tarea.getEstado());
         tareaModel.setStatusSend(tarea.getStatusEnvio());
+        tareaModel.setId(tarea.getId());
         return tareaModel;
     }
 
@@ -29,6 +30,7 @@ public class TareaModelDataMapper {
         tareaModel.setFechEnvio(tarea.getFechEnvio());
         tareaModel.setEstado(tarea.getEstado());
         tareaModel.setStatusEnvio(tarea.getStatusSend());
+        tareaModel.setId(tarea.getId());
         return tareaModel;
     }
 
